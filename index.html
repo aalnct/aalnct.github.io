@@ -14,7 +14,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body>
+  <body data-spy="scroll" data-target = ".navbar-collapse"> <!-- this will active current class -->
       
       
           <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -26,30 +26,22 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                           </button>
-                        <a class="navbar-brand" href="javascript:void(0);"><img src="images/top_logo.png"></a>
+                        <a class="navbar-brand" href="#jumbotron"><img src="images/top_logo.png"></a>
                         
                       </div>
                         <div id="navbar" class="collapse navbar-collapse">
                           <ul class="nav navbar-nav navbar-right">
-<!--
-                            <li><a href="#">Who We Are</a></li>
-                            <li><a href="#">GET INVOLVED</a></li>
--->
-                              <li><input type="text" placeholder="email"></li>&nbsp;
-                              <li><input type="password" placeholder="password"></li>
-<!--                              <li class="btn btn-success">Submit</li>-->
-                              <li>
-                                  <input type="button" class = "btn btn-default" name = "Submit" value = "Submit" id ="login"/>
-                              </li>
-                              
-<!--                            <li><a href="#contact">Contact</a></li>-->
+
+                            <li><a href="#who">Who We Are</a></li>
+                            <li><a href="#get-involved">GET INVOLVED</a></li>
+
 
                           </ul>
                         </div><!--/.nav-collapse -->
               </div>
             </nav>
     
-      <div class = "jumbotron">
+      <div class = "jumbotron" id = "jumbotron">
         
           <div class="container">
             <h1>Our goal is to inspire <br>Tallahassee to write 1,000,000<br> lines of code_</h1>
@@ -113,30 +105,16 @@
     </div>
 
 
+
     <!-- Footer -->
     <footer id="footer">
         <div class = "container">
             <p><img src = "images/one_million_bottom_brand.png"></p>
         </div>
     </footer>
-<!--
-      <div class="container">
-        
-            
-            <div class="header clearfix">
-                    <nav>
-                      <ul class="nav nav-pills pull-right">
-                        <li role="presentation" class=""><a href="#">Home</a></li>
-                        <li role="presentation"><a href="#">About</a></li>
-                        <li role="presentation"><a href="#">Contact</a></li>
-                      </ul>
-                    </nav>
-                <h3 class="text-muted">One Millions Line</h3>
-            </div>
-            
-            
-        </div>
--->
+
+
+
       
       
 
@@ -156,6 +134,7 @@
       
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src = "js/smoothscroll.js"></script>
     
       <!-- Include all compiled plugins (below), or include individual files as needed -->
 
