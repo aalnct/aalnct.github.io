@@ -26,10 +26,20 @@ ul.nav{
     padding-top: 30px;
     padding-bottom: 30px;
 }
-footer{
+#footer{
     background-color: #ff7744;
     padding-top:30px;
     padding-bottom:30px;
+}
+
+#back-to-top{
+    position: fixed;
+    bottom: 20px;
+    right:20px;
+}
+
+#back-to-top a{
+    color: #333;
 }
 
 .jumbotron h1{
