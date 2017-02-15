@@ -30,10 +30,11 @@ ul.nav{
     background-color: #ff7744;
     padding-top:30px;
     padding-bottom:30px;
+    position: relative;
 }
 
 #back-to-top{
-    position: fixed;
+    position: absolute;
     bottom: 20px;
     right:20px;
 }
