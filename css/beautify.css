@@ -6,6 +6,7 @@
 
 body {
   padding-top: 50px;
+    line-height: 1.4;
   /*padding-bottom: 20px;*/
 }
 
@@ -41,6 +42,19 @@ ul.nav{
 
 #back-to-top a{
     color: #333;
+}
+
+#navbar{
+    float: right;
+}
+
+/*ul li #who-am-i{*/
+    /*text-transform: uppercase;*/
+    /*color: red;*/
+/*}*/
+
+#who-am-i {
+    text-transform: uppercase;
 }
 
 .jumbotron h1{
@@ -106,6 +120,20 @@ ul li{
     color:red;
     text-decoration: none;
     opacity:.8;
+}
+
+.git-hub-profile{
+    text-transform: uppercase;
+}
+.linked-in-profile{
+    cursor:pointer;
+}
+.ghost-button{
+    padding:10px 20px;
+    border:solid 1px #c6d6e4;
+    border-radius: 4px;
+    opacity: 0.75;
+    text-transform: uppercase;
 }
 
 /* Responsive Styling*/
