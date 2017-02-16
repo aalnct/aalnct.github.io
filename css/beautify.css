@@ -53,6 +53,10 @@ ul.nav{
     /*color: red;*/
 /*}*/
 
+.navbar-brand{
+    font-weight: 500;
+}
+
 #who-am-i {
     text-transform: uppercase;
 }
@@ -134,6 +138,15 @@ ul li{
     border-radius: 4px;
     opacity: 0.75;
     text-transform: uppercase;
+}
+
+.modal-content iframe {
+    margin-top: 15px;
+    margin-bottom:10px;
+}
+
+.embed-responsive-item{
+    margin-top: 10px;
 }
 
 /* Responsive Styling*/
