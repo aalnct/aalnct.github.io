@@ -1,0 +1,123 @@
+body {
+    margin:30px;
+    padding:10px;
+    overflow: hidden;
+    font-family: 'Della Respira', serif;
+    background:#f1f1f1;
+    font-size: 15px;
+    overflow-x: hidden;
+    height: 100%;
+    min-height: 100%;
+    line-height: 20px;
+    color: #5f5f5f;
+    margin-left: 0px;
+    background-color: gray;
+}
+
+
+.contact_me_header {
+    text-align: center;
+    /*text-transform: uppercase;*/
+    background: #0089bf;
+    color: #ffffff;
+    border-radius: 4px 4px 0 0;
+    font-size: 30px;
+    padding: 10px;
+    line-height: 40px;
+}
+
+#first_name {
+    padding-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+}
+
+#last_name{
+    padding-top: 15px;
+    margin-left: 0px;
+}
+
+.registerWarp{
+
+width:100%;height:100%;
+
+}
+
+.registerWarp .contact_me_form {
+    max-width: 580px;
+    margin: 0 auto;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+
+.contact_me_body {
+    background-color: #fbfbfb;
+    padding:30px;
+    color: #424242;
+}
+
+.span6 {
+    width: 150px;
+}
+.MB5{
+    margin-bottom: 5px;
+    /*margin-top: 5px;*/
+}
+
+.first_name {
+    width:100%;
+}
+
+input[type = "text"], input[type = "email"]  {
+    width:304px;
+    height:40px;
+    font-size: 20px;
+    border:1px solid #dcdcdc;
+    background:#fbfbfb;
+    padding-left:17px;
+    padding-right:17px;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    transition: border linear 0.2s, box-shadow linear 0.2s;
+}
+
+input[type = "password"] {
+    width:304px;
+    height:40px;
+    font-size: 20px;
+    border:1px solid #dcdcdc;
+    background:#fbfbfb;
+    padding-left:17px;
+    padding-right:17px;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    transition: border linear 0.2s, box-shadow linear 0.2s;
+}
+
+.contact_me_submit_form_ {
+    padding: 10px;
+    margin-top: 10px;
+    color: #ffffff;
+    background-color: #f28046;
+    height:43px;
+    padding:0 40px;
+    border-radius: 3px;
+
+}
+
+input[type = "submit"]:hover {
+    background-color: #2aabd2;
+}
+
+.row-fluid{
+    position: relative;
+}
+.registerWarp .icon_box_lock{
+/*text-align: center;*/
+}
+
+.registerWarp .icon_box_lock .fa-lock{
+    color: #5f5f5f;
+}
+#email_id{
+    margin-top: 5px;
+}
