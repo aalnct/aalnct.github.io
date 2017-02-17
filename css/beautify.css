@@ -149,6 +149,10 @@ ul li{
     margin-top: 10px;
 }
 
+.fade .modal-dialog{
+    width: 1000px;
+}
+
 /* Responsive Styling*/
 /* Medium devices (desktops, 992px and up) */
 
